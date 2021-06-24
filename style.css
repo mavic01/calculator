@@ -2,20 +2,26 @@
 
 body {
     font-family: 'Open Sans';
-    background-color: rgb(17, 16, 16);
+    /* background-color: rgb(17, 16, 16); */
     box-sizing: border-box;
     height: 100vh;
     width: 100%;
-}
 
-#container {
-    /* width: 1000px;
-    height: 550px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/calculator.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/calculator.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
-    margin: 20px auto;
+
+
 }
+
+ #container {
+    /* width: 1000px;
+    height: 550px; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/calculator.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; */
+    margin: 20px auto;
+} 
 
 #calculator {
     width: 320px;
@@ -59,9 +65,13 @@ body {
     margin: 15px;
     float: left;
     border-radius: 50%;
-    border-width: 0;
+    /* border-width: 0; */
     font-weight: bold;
     font-size: 15px;
+}
+
+.empty {
+    border-width: 0;
 }
 
 .number, .empty {
@@ -82,23 +92,23 @@ body {
 
 button:nth-child(4) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #032524;
+    background-color: #dd2d00;
 }
 button:nth-child(8) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #462f04;
+    background-color: #a17944;
 }
 button:nth-child(12) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #083149;
+    background-color: #c2d4b1;
 }
 button:nth-child(16) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #040c29;
+    background-color: #a6b992;
 }
 button:nth-child(20) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #1b082e;
+    background-color: #49a109;
 }
 
 
