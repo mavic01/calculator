@@ -2,16 +2,18 @@
 
 body {
     font-family: 'Open Sans';
-    background-color: black;
+    background-color: rgb(17, 16, 16);
     box-sizing: border-box;
-    height: 1000vh;
+    height: 100vh;
+    width: 100%;
 }
 
 #container {
-    width: 1000px;
-    height: 550px;
+    /* width: 1000px;
+    height: 550px; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/calculator.jpg);
-    /* background-repeat: no-repeat;  */
+    background-repeat: no-repeat; 
+    background-size: cover;
     margin: 20px auto;
 }
 
@@ -80,23 +82,23 @@ body {
 
 button:nth-child(4) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #20b2aa;
+    background-color: #032524;
 }
 button:nth-child(8) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #ffa500;
+    background-color: #462f04;
 }
 button:nth-child(12) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #f08080;
+    background-color: #083149;
 }
 button:nth-child(16) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #7d93e0;
+    background-color: #040c29;
 }
 button:nth-child(20) { /*every 4th element in the row will change color*/
     font-size: 20px;
-    background-color: #9477af;
+    background-color: #1b082e;
 }
 
 
