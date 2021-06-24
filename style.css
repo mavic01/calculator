@@ -23,6 +23,11 @@ body {
     margin: 20px auto;
 } 
 
+.name {
+    text-align: center;
+    color: pink;
+}
+
 #calculator {
     width: 320px;
     height: 520px;
